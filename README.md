@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IoT Alert – Surveillance température/humidité avec alerte e-mail
 
 Système connecté de surveillance environnementale : un **ESP32** lit un capteur **DHT11**, envoie les mesures en JSON sur le port série USB, et une machine **Linux (Ubuntu)** compare les valeurs à des seuils puis envoie une **alerte par e-mail** (Bash + Postfix + SMTP Gmail).
@@ -90,3 +91,7 @@ C/C++ embarqué (ESP32), capteur DHT11, communication série UART, scripts Bash,
 - Éviter les e-mails répétés à chaque cycle (délai minimum entre deux alertes)
 - Lancer `read.sh` et `alert.sh` comme services `systemd`
 - Passer en Wi-Fi/MQTT pour supprimer la liaison USB
+=======
+# iot-alert
+IoT Alert System using ESP32, DHT11 and Postfix Email Notifications Visibility
+>>>>>>> 6f786d7a0888120a794fe5a1b4369773e3fd417c
