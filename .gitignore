@@ -1,0 +1,19 @@
+# Données générées à l'exécution
+last.json
+
+# Fichiers temporaires / éditeurs
+*.log
+*.swp
+*~
+.vscode/
+.idea/
+
+# Arduino
+build/
+*.bin
+*.elf
+
+# Ne jamais publier d'identifiants
+sasl_passwd
+sasl_passwd.db
+*.env
